@@ -3,13 +3,7 @@
   "version": "6.1.4",
   "author": "Pomax",
   "description": "A javascript library for working with Bezier curves",
-  "type": "module",
-  "exports": {
-    "import": "./src/bezier.js",
-    "require": "./dist/bezier.cjs"
-  },
-  "main": "./dist/bezier.cjs",
-  "browser": "./src/bezier.js",
+  "main": "./src/bezier.js",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/Pomax/bezierjs/issues"

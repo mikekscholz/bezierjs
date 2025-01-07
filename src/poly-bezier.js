@@ -1,4 +1,4 @@
-import { utils } from "./utils.js";
+const { utils } = require("./utils.js");
 
 /**
  * Poly Bezier
@@ -67,4 +67,4 @@ class PolyBezier {
   }
 }
 
-export { PolyBezier };
+module.exports = { PolyBezier };

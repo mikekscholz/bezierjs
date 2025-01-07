@@ -1,4 +1,4 @@
-import { Bezier } from "./bezier.js";
+// const { Bezier } = require("./bezier.js");
 
 // math-inlining.
 const { abs, cos, sin, acos, atan2, sqrt, pow } = Math;
@@ -906,4 +906,4 @@ const utils = {
   },
 };
 
-export { utils };
+module.exports = { utils };

@@ -6,8 +6,8 @@
   This code is MIT licensed.
 **/
 
-import { utils } from "./utils.js";
-import { PolyBezier } from "./poly-bezier.js";
+const { utils } = require("./utils.js");
+const { PolyBezier } = require("./poly-bezier.js");
 
 // math-inlining.
 const { abs, min, max, cos, sin, acos, sqrt } = Math;
@@ -1008,4 +1008,4 @@ class Bezier {
   }
 }
 
-export { Bezier };
+module.exports = Bezier;
